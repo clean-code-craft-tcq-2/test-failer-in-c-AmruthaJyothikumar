@@ -31,8 +31,7 @@ int main() {
                 }
         }
     }
-    //assert(spacecount == 2);
-    printf("%d spacecount\n",spacecount);
+    assert(spacecount == 2);
     printf("All is well (maybe!)\n");
     return 0;
 }
