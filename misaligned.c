@@ -17,6 +17,10 @@ int main() {
     int result = printColorMap();
     int spacecount;
     char str[100];
+    int i = 0, j = 0, k=0;
+    const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
+    const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+    
     assert(result == 25);  
     for(i = 0; i < 5; i++) {
         for(j = 0; j < 5; j++) {
